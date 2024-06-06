@@ -26,9 +26,30 @@
   font-style: italic;
 }
 
+.navList {
+  display: flex;
+  gap: 24px;
+  margin-right: 48px;
+  list-style: none;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .sideMenu {
   grid-area: 2 / 1 / 4;
   background-color: var(--main-colour);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 12px;
+}
+.sideIcon {
+  cursor: pointer;
 }
 
 .chatTitleArea {
@@ -106,7 +127,13 @@
 .jobInput {
   width: 300px;
   height: 24px;
-  padding: 4px;
+  padding: 4px 8px;
+  border: 1px solid var(--mid-grey);
+  border-radius: 4px;
+}
+
+.jobInput:focus {
+  outline: 1px solid var(--mid-grey);
 }
 
 .submitButton {
@@ -165,7 +192,6 @@
 
 .messageInput:focus {
   outline: 1px solid var(--mid-grey);
-  border: 1px solid var(--mid-colour);
 }
 
 .sendBtn {

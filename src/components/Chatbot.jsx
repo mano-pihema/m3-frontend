@@ -98,7 +98,7 @@ export default function Chatbot() {
           stroke-width="1.5"
           width="28"
           stroke="#fff"
-          class="sideIcon"
+          className={styles.sideIcon}
         >
           <path
             stroke-linecap="round"
@@ -114,7 +114,7 @@ export default function Chatbot() {
           stroke-width="1.5"
           width="28"
           stroke="#fff"
-          class="sideIcon"
+          className={styles.sideIcon}
         >
           <path
             stroke-linecap="round"
@@ -130,7 +130,7 @@ export default function Chatbot() {
           stroke-width="1.5"
           width="28"
           stroke="#fff"
-          class="sideIcon"
+          className={styles.sideIcon}
         >
           <path
             stroke-linecap="round"
@@ -145,7 +145,7 @@ export default function Chatbot() {
           stroke-width="1.5"
           width="28"
           stroke="#fff"
-          class="sideIcon"
+          className={styles.sideIcon}
         >
           <path
             stroke-linecap="round"
@@ -160,7 +160,7 @@ export default function Chatbot() {
           stroke-width="1.5"
           width="28"
           stroke="#fff"
-          class="sideIcon"
+          className={styles.sideIcon}
         >
           <path
             stroke-linecap="round"

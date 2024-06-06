@@ -57,7 +57,7 @@ export default function Chatbot() {
     setHistory([
       {
         role: "user",
-        parts: [{ text: `Hello, I am interviewing for the job of ${title}.` }],
+        parts: [{ text: `Hello, I am interviewing for the job title of ${title}.` }],
       },
       {
         role: "model",
